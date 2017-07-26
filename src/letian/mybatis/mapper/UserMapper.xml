@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--这块等于dao接口的实现  namespace必须和接口的类路径一样-->
+
+<mapper namespace="letian.mybatis.dao.UserMapper">
+    <!-- findById必须和接口中的方法名一样  返回一个User  就是刚才的别名  如果不弄别名要连类路径一起写 麻烦-->
+    <select id="findById" parameterType="HashMap" resultType="letian.mybatis.bean.User">
+        select * from blog_db.user where id=#{id}
+    </select>
+</mapper>
+<!--<Mapper>的namespace是letian.mybatis.dao.UserMapper接口。
+唯一的一个<select>的id是findById，
+也是在letian.mybatis.dao.UserMapper接口定义的一个方法。
+<select>的值是一个select语句，其中#{id}对应方法findById的参数int id，
+执行select查询后，返回的类型是letian.mybatis.bean.User。-->
