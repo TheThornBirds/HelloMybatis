@@ -10,6 +10,10 @@
     <select id="findById" parameterType="HashMap" resultType="letian.mybatis.bean.User">
         select * from blog_db.user where id=#{id}
     </select>
+
+    <select id="findByPassword" parameterType="HashMap" resultType="letian.mybatis.bean.User">
+        select * from blog_db.user where password=#{password}
+    </select>
 </mapper>
 <!--<Mapper>的namespace是letian.mybatis.dao.UserMapper接口。
 唯一的一个<select>的id是findById，
