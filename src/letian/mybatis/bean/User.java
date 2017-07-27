@@ -9,8 +9,17 @@ package letian.mybatis.bean;
  */
 public class User {
     private int id;
+    private String password;
     private String username;
     private String email;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public int getId() {
         return id;
@@ -44,14 +53,16 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
+                ", password='" + password + '\'' +
                 ", username='" + username + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
 
-    public User(int id, String name, String email) {
+    public User(int id, String password, String username, String email) {
         this.id = id;
-        this.username = name;
+        this.password = password;
+        this.username = username;
         this.email = email;
     }
 }

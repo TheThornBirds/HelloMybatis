@@ -6,6 +6,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.log4j.PropertyConfigurator;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -20,9 +21,9 @@ public class Main {
         sessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsReader("mybatis-config.xml"));
         SqlSession sqlSession = sessionFactory.openSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-        User user = userMapper.findById(1);
+//        User user = userMapper.findById(1);
         //源码OK查询成功
-        System.out.println(user);
+//        System.out.println(user);
 
         //源码OK查询成功
 
@@ -36,11 +37,28 @@ public class Main {
 
         //知道name和password，只查询三个字段
         //源码OK，查询正确
-        HashMap<String, String> userInfo = new HashMap<String, String>();
-        userInfo.put("name", "letian");
-        userInfo.put("password", "123");
-        user = userMapper.findByNameAndPassword(userInfo);
-        System.out.println(user);
+//        HashMap<String, String> userInfo = new HashMap<String, String>();
+//        userInfo.put("name", "letian");
+//        userInfo.put("password", "123");
+//        user = userMapper.findByNameAndPassword(userInfo);
+//        System.out.println(user);
+
+        //添加一个用户，源码OK，添加正确 (user1方法)
+//        User user1 = new User();
+//        user1.setUsername("xiaowy");
+//        user1.setEmail("xiaowei@111.com");
+//        user1.setPassword("456");
+//
+//        userMapper.insertUser1(user1);
+//        sqlSession.commit();
+//        System.out.println(user1);
+
+        //添加一个用户(user2方法)源码OK，查询正确
+        User user2 = new User(0,"1234","mengmeng","haha@qq.com");
+        userMapper.insertUser2(user2);
+        sqlSession.commit();
+        System.out.println(user2);
+
 
     }
 }

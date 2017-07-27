@@ -25,4 +25,8 @@ public interface UserMapper {
     //有name和password这两个信息，只获得对应的id、name和email
     User findByNameAndPassword(HashMap<String,String> userInfo);
 
+    //新增两个添加用户的方法
+    void insertUser1(User user);
+    void insertUser2(User user);
+
 }
