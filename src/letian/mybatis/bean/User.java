@@ -1,7 +1,7 @@
 package letian.mybatis.bean;
 
 /**
- * Created by 吴晨 on 2017/7/26.
+ * Created by wuchen on 2017/7/26.
  */
 public class User {
     private int id;

@@ -10,7 +10,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import java.io.IOException;
 
 /**
- * Created by 吴晨 on 2017/7/26.
+ * Created by wuchen on 2017/7/26.
  */
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -19,6 +19,7 @@ public class Main {
         SqlSession sqlSession = sessionFactory.openSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
         User user = userMapper.findById(1);
+        //源码OK查询成功
         System.out.println(user);
 
     }
