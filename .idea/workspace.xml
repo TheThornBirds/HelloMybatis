@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e89c7dcf-8a93-4a09-904f-76ca85b76a6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMybatis/lib/javaee-api-5.0-2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMybatis/lib/log4j-1.2.17-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMybatis/lib/log4j-1.2.17-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMybatis/lib/log4j-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMybatis/.idea/libraries/log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMybatis/log.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMybatis/src/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HelloMybatis/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/HelloMybatis.iml" afterPath="$PROJECT_DIR$/../HelloMybatis/HelloMybatis.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml" afterPath="$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../HelloMybatis/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,60 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-              <folding>
-                <marker date="1501144833902" expanded="true" signature="720:741" ph="select * fro... blog_db" />
-                <marker date="1501144833902" expanded="true" signature="720:761" ph="select * fro... user" />
-                <marker date="1501144833902" expanded="true" signature="883:936" ph="select * fro... user" />
-                <marker date="1501144833902" expanded="true" signature="1065:1157" ph="select id, n... user" />
-                <marker date="1501144833902" expanded="true" signature="1764:1859" ph="insert into " />
-                <marker date="1501144833902" expanded="true" signature="2384:2453" ph="insert into " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,9 +33,39 @@
       <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="98">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+              <folding>
+                <marker date="1501148869762" expanded="true" signature="720:741" ph="select * fro... blog_db" />
+                <marker date="1501148869762" expanded="true" signature="720:761" ph="select * fro... user" />
+                <marker date="1501148869762" expanded="true" signature="883:936" ph="select * fro... user" />
+                <marker date="1501148869762" expanded="true" signature="1065:1157" ph="select id, n... user" />
+                <marker date="1501148869762" expanded="true" signature="1764:1859" ph="insert into " />
+                <marker date="1501148869762" expanded="true" signature="2384:2453" ph="insert into " />
+                <marker date="1501148869762" expanded="true" signature="2555:2614" ph="update blog_... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="65" column="65" lean-forward="true" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +85,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../HelloMybatis" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../HelloMybatis" value="day4" />
+        <entry key="$PROJECT_DIR$/../HelloMybatis" value="day5" />
       </map>
     </option>
   </component>
@@ -128,9 +99,9 @@
       <list>
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java" />
-        <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java" />
       </list>
@@ -201,7 +172,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloMybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloMybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,7 +681,7 @@
       <workItem from="1501059441489" duration="1003000" />
       <workItem from="1501060499796" duration="2049000" />
       <workItem from="1501119008003" duration="10305000" />
-      <workItem from="1501140710765" duration="4150000" />
+      <workItem from="1501140710765" duration="7668000" />
     </task>
     <task id="LOCAL-00001" summary="修改两个BUG，现在源码OK，查询成功">
       <created>1501121884028</created>
@@ -714,11 +711,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501126433469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加log4jjar包，方便查看sql语句的输出，增加添加用户的代码，添加别名">
+      <created>1501145235254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501145235255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25784000" />
+    <option name="totallyTimeSpent" value="29302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -733,12 +737,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3989726" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40924656" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.9818457" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49848714" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -779,7 +783,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41021127" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.9823435" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49919742" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -796,7 +800,8 @@
     <MESSAGE value="查询密码为123的所有用户" />
     <MESSAGE value="示例：如果字段名和属性名不一致，添加resultmap，做强行映射" />
     <MESSAGE value="只知道name和password，仅查询id,name,email三个字段" />
-    <option name="LAST_COMMIT_MESSAGE" value="只知道name和password，仅查询id,name,email三个字段" />
+    <MESSAGE value="添加log4jjar包，方便查看sql语句的输出，增加添加用户的代码，添加别名" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加log4jjar包，方便查看sql语句的输出，增加添加用户的代码，添加别名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -830,12 +835,13 @@
         <state relative-caret-position="700">
           <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding>
-            <marker date="1501144833902" expanded="true" signature="720:741" ph="select * fro... blog_db" />
-            <marker date="1501144833902" expanded="true" signature="720:761" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="883:936" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="1065:1157" ph="select id, n... user" />
-            <marker date="1501144833902" expanded="true" signature="1764:1859" ph="insert into " />
-            <marker date="1501144833902" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="720:741" ph="select * fro... blog_db" />
+            <marker date="1501148869762" expanded="true" signature="720:761" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="883:936" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="1065:1157" ph="select id, n... user" />
+            <marker date="1501148869762" expanded="true" signature="1764:1859" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2555:2614" ph="update blog_... " />
           </folding>
         </state>
       </provider>
@@ -889,12 +895,13 @@
         <state relative-caret-position="224">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
-            <marker date="1501144833902" expanded="true" signature="720:741" ph="select * fro... blog_db" />
-            <marker date="1501144833902" expanded="true" signature="720:761" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="883:936" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="1065:1157" ph="select id, n... user" />
-            <marker date="1501144833902" expanded="true" signature="1764:1859" ph="insert into " />
-            <marker date="1501144833902" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="720:741" ph="select * fro... blog_db" />
+            <marker date="1501148869762" expanded="true" signature="720:761" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="883:936" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="1065:1157" ph="select id, n... user" />
+            <marker date="1501148869762" expanded="true" signature="1764:1859" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2555:2614" ph="update blog_... " />
           </folding>
         </state>
       </provider>
@@ -940,12 +947,13 @@
         <state relative-caret-position="224">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
-            <marker date="1501144833902" expanded="true" signature="720:741" ph="select * fro... blog_db" />
-            <marker date="1501144833902" expanded="true" signature="720:761" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="883:936" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="1065:1157" ph="select id, n... user" />
-            <marker date="1501144833902" expanded="true" signature="1764:1859" ph="insert into " />
-            <marker date="1501144833902" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="720:741" ph="select * fro... blog_db" />
+            <marker date="1501148869762" expanded="true" signature="720:761" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="883:936" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="1065:1157" ph="select id, n... user" />
+            <marker date="1501148869762" expanded="true" signature="1764:1859" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2555:2614" ph="update blog_... " />
           </folding>
         </state>
       </provider>
@@ -991,12 +999,13 @@
         <state relative-caret-position="224">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
-            <marker date="1501144833902" expanded="true" signature="720:741" ph="select * fro... blog_db" />
-            <marker date="1501144833902" expanded="true" signature="720:761" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="883:936" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="1065:1157" ph="select id, n... user" />
-            <marker date="1501144833902" expanded="true" signature="1764:1859" ph="insert into " />
-            <marker date="1501144833902" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="720:741" ph="select * fro... blog_db" />
+            <marker date="1501148869762" expanded="true" signature="720:761" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="883:936" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="1065:1157" ph="select id, n... user" />
+            <marker date="1501148869762" expanded="true" signature="1764:1859" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2555:2614" ph="update blog_... " />
           </folding>
         </state>
       </provider>
@@ -1019,14 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloMybatis/log.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -1043,43 +1044,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../HelloMybatis/log.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-          <folding>
-            <marker date="1501144833902" expanded="true" signature="720:741" ph="select * fro... blog_db" />
-            <marker date="1501144833902" expanded="true" signature="720:761" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="883:936" ph="select * fro... user" />
-            <marker date="1501144833902" expanded="true" signature="1065:1157" ph="select id, n... user" />
-            <marker date="1501144833902" expanded="true" signature="1764:1859" ph="insert into " />
-            <marker date="1501144833902" expanded="true" signature="2384:2453" ph="insert into " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+          <folding>
+            <marker date="1501148869762" expanded="true" signature="720:741" ph="select * fro... blog_db" />
+            <marker date="1501148869762" expanded="true" signature="720:761" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="883:936" ph="select * fro... user" />
+            <marker date="1501148869762" expanded="true" signature="1065:1157" ph="select id, n... user" />
+            <marker date="1501148869762" expanded="true" signature="1764:1859" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2384:2453" ph="insert into " />
+            <marker date="1501148869762" expanded="true" signature="2555:2614" ph="update blog_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="65" column="65" lean-forward="true" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

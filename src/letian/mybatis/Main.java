@@ -54,10 +54,16 @@ public class Main {
 //        System.out.println(user1);
 
         //添加一个用户(user2方法)源码OK，查询正确
-        User user2 = new User(0,"1234","mengmeng","haha@qq.com");
-        userMapper.insertUser2(user2);
-        sqlSession.commit();
-        System.out.println(user2);
+//        User user2 = new User(0,"1234","mengmeng","haha@qq.com");
+//        userMapper.insertUser2(user2);
+//        sqlSession.commit();
+//        System.out.println(user2);
+
+        //修改一个用户密码 源码OK，测试正确
+        User user = userMapper.findById(1);
+        user.setPassword("4567");
+        userMapper.updateUserPassword(user);
+        System.out.println(userMapper.findById(1).getPassword());
 
 
     }

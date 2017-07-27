@@ -29,4 +29,7 @@ public interface UserMapper {
     void insertUser1(User user);
     void insertUser2(User user);
 
+    //更新用户的方法
+    void updateUserPassword(User user);
+
 }
