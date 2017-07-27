@@ -5,13 +5,12 @@ package letian.mybatis.bean;
  */
 
 /**
- * 2017-7-27修改如下，将name修改为username，这样成员变量名和表中的字段名会不一致
+ * 修改，将password删掉
  */
 public class User {
     private int id;
     private String username;
     private String email;
-    private String password;
 
     public int getId() {
         return id;
@@ -37,13 +36,6 @@ public class User {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
     public User() {
     }
@@ -54,14 +46,12 @@ public class User {
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
                 '}';
     }
 
-    public User(int id, String name, String email, String password) {
+    public User(int id, String name, String email) {
         this.id = id;
         this.username = name;
         this.email = email;
-        this.password = password;
     }
 }

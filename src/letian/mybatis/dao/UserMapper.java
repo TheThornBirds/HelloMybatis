@@ -2,6 +2,7 @@ package letian.mybatis.dao;
 
 import letian.mybatis.bean.User;
 
+import java.util.HashMap;
 import java.util.List;
 //
 /**
@@ -20,5 +21,8 @@ public interface UserMapper {
 
     //查询密码为123的所有用户
     List<User> findByPassword(String password);
+
+    //有name和password这两个信息，只获得对应的id、name和email
+    User findByNameAndPassword(HashMap<String,String> userInfo);
 
 }
