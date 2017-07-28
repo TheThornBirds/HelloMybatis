@@ -67,6 +67,16 @@
         update blog_db.user set password=#{password} where id=#{id}
     </update>
 
+
+    <!-- 根据ID删除用户 -->
+    <delete id="delete" parameterType="User">
+        delete from blog_db.user where id=#{id}
+    </delete>
+
+    <!-- 删除ID大于某ID的所有用户 -->
+    <delete id="deleteByGreaterThanId" parameterType="Integer">
+        <![CDATA[delete from blog_db.user where id >#{id}]]>
+    </delete>
 </mapper>
 <!--<Mapper>的namespace是letian.mybatis.dao.UserMapper接口。
 唯一的一个<select>的id是findById，

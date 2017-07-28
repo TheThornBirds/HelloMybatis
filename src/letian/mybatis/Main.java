@@ -60,10 +60,18 @@ public class Main {
 //        System.out.println(user2);
 
         //修改一个用户密码 源码OK，测试正确
-        User user = userMapper.findById(1);
-        user.setPassword("4567");
-        userMapper.updateUserPassword(user);
-        System.out.println(userMapper.findById(1).getPassword());
+//        User user = userMapper.findById(1);
+//        user.setPassword("4567");
+//        userMapper.updateUserPassword(user);
+//        System.out.println(userMapper.findById(1).getPassword());
+        User user = userMapper.findById(6);
+        System.out.println(user);
+        userMapper.delete(user);
+        user = userMapper.findById(6);
+        System.out.println("user2------"+user);
+
+        sqlSession.commit();
+        sqlSession.close();
 
 
     }

@@ -32,4 +32,10 @@ public interface UserMapper {
     //更新用户的方法
     void updateUserPassword(User user);
 
+    //根据ID删除用户
+    void delete(User user);
+
+    //删除ID大于某ID的所有用户
+    void deleteByGreaterThanId(int id);
+
 }
