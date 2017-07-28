@@ -21,9 +21,9 @@ public class Main {
         sessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsReader("mybatis-config.xml"));
         SqlSession sqlSession = sessionFactory.openSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-//        User user = userMapper.findById(1);
+        User user = userMapper.findById(3);
         //源码OK查询成功
-//        System.out.println(user);
+        System.out.println(user);
 
         //源码OK查询成功
 
@@ -64,14 +64,16 @@ public class Main {
 //        user.setPassword("4567");
 //        userMapper.updateUserPassword(user);
 //        System.out.println(userMapper.findById(1).getPassword());
-        User user = userMapper.findById(6);
-        System.out.println(user);
-        userMapper.delete(user);
-        user = userMapper.findById(6);
-        System.out.println("user2------"+user);
 
-        sqlSession.commit();
-        sqlSession.close();
+        //删除一个用户
+//        User user = userMapper.findById(6);
+//        System.out.println(user);
+//        userMapper.delete(user);
+//        user = userMapper.findById(6);
+//        System.out.println("user2------"+user);
+//
+//        sqlSession.commit();
+//        sqlSession.close();
 
 
     }

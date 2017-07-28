@@ -7,9 +7,19 @@
 
 <mapper namespace="letian.mybatis.dao.UserMapper">
 
-    <!-- 解决属性名和字段名不一致的问题,指明username代表数据库里的name -->
+
     <resultMap id="userResult" type="letian.mybatis.bean.User">
-        <result property="username" column="name" javaType="String" jdbcType="VARCHAR"/>
+        <result property="id" column="user_id"/>
+        <result property="name" column="user_name"/>
+        <result property="email" column="email"/>
+        <result property="password" column="user_password"/>
+        
+        <collection property="blogs" ofType="letian.mybatis.bean.Blog">
+            <id property="id" column="blog_id"/>
+            <result property="ownerId" column="user_id"/>
+            <result property="title" column="blog_title"/>
+            <result property="content" column="blog_content"/>
+        </collection>
     </resultMap>
 
     <!-- findById必须和接口中的方法名一样  返回一个User
@@ -18,7 +28,15 @@
 
     <select>中也添加了属性resultMap，值为userResult，用来指向上面的<resultMap> -->
     <select id="findById" parameterType="HashMap" resultMap="userResult" resultType="User">
-        select * from blog_db.user where id=#{id}
+        select
+        user.id as user_id,
+        user.name as user_name,
+        user.email as user_email,
+        user.password as user_password,
+        blog.id as blog_id,
+        blog.title as blog_title,
+        blog.content as blog_content
+        from user, blog where user.id = #{id} and user.id=blog.owner_id;
     </select>
 
     <select id="findByPassword" resultMap="userResult" parameterType="HashMap" resultType="User">
@@ -44,11 +62,11 @@
     -->
     <insert id="insertUser1" parameterType="User" useGeneratedKeys="true" keyProperty="id">
         insert into blog_db.user(name,email,password)
-        values (#{username},#{email},#{password})
+        values (#{name},#{email},#{password})
     </insert>
 
     <parameterMap id="insertUser2ParamsMap" type="User">
-        <parameter property="username"/>
+        <parameter property="name"/>
         <parameter property="email"/>
         <parameter property="password"/>
     </parameterMap>

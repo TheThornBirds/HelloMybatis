@@ -4,21 +4,30 @@ package letian.mybatis.bean;
  * Created by wuchen on 2017/7/26.
  */
 
+import java.util.List;
+
 /**
  * 修改，将password删掉
  */
 public class User {
     private int id;
     private String password;
-    private String username;
+    private String name;
     private String email;
+    private List<Blog> blogs;
 
-    public String getPassword() {
-        return password;
+    public User() {
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", blogs=" + blogs +
+                '}';
     }
 
     public int getId() {
@@ -29,12 +38,20 @@ public class User {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getPassword() {
+        return password;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
@@ -45,24 +62,20 @@ public class User {
         this.email = email;
     }
 
-
-    public User() {
+    public List<Blog> getBlogs() {
+        return blogs;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", password='" + password + '\'' +
-                ", username='" + username + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+    public void setBlogs(List<Blog> blogs) {
+        this.blogs = blogs;
     }
 
-    public User(int id, String password, String username, String email) {
+    public User(int id, String password, String name, String email, List<Blog> blogs) {
+    
         this.id = id;
         this.password = password;
-        this.username = username;
+        this.name = name;
         this.email = email;
+        this.blogs = blogs;
     }
 }
