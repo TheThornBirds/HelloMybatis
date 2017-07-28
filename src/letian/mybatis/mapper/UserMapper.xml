@@ -6,10 +6,77 @@
 <!--这块等于dao接口的实现  namespace必须和接口的类路径一样-->
 
 <mapper namespace="letian.mybatis.dao.UserMapper">
-    <!-- findById必须和接口中的方法名一样  返回一个User  就是刚才的别名  如果不弄别名要连类路径一起写 麻烦-->
-    <select id="findById" parameterType="HashMap" resultType="letian.mybatis.bean.User">
+
+    <!-- 解决属性名和字段名不一致的问题,指明username代表数据库里的name -->
+    <resultMap id="userResult" type="letian.mybatis.bean.User">
+        <result property="username" column="name" javaType="String" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!-- findById必须和接口中的方法名一样  返回一个User
+
+    就是刚才的别名  如果不弄别名要连类路径一起写 麻烦
+
+    <select>中也添加了属性resultMap，值为userResult，用来指向上面的<resultMap> -->
+    <select id="findById" parameterType="HashMap" resultMap="userResult" resultType="User">
         select * from blog_db.user where id=#{id}
     </select>
+
+    <select id="findByPassword" resultMap="userResult" parameterType="HashMap" resultType="User">
+        select * from blog_db.user where password=#{password}
+    </select>
+
+    <select id="findByNameAndPassword" resultMap="userResult" parameterType="HashMap" resultType="User">
+        select id, name, email
+        from blog_db.user where name=#{name} and password=#{password}
+    </select>
+
+    <!-- 添加用户的方法们 -->
+    <!-- parameterType和方法insertUser1的参数类型一致
+        SQL语句，只插入了User的name、email、password，主键id依靠数据库的自动生成
+
+        useGeneratedKeys：（仅对 insert 和 update 有用）
+        这会令 MyBatis 使用 JDBC 的 getGeneratedKeys 方法来取出由数据库内部生成的主键
+        （比如：像 MySQL 和 SQL Server 这样的关系数据库管理系统的自动递增字段），默认值：false。
+
+        keyProperty： （仅对 insert 和 update 有用）唯一标记一个属性，
+        MyBatis 会通过 getGeneratedKeys 的返回值或者通过 insert 语句的 selectKey 子元素设置它的键值，
+        默认：unset。如果希望得到多个生成的列，也可以是逗号分隔的属性名称列表。
+    -->
+    <insert id="insertUser1" parameterType="User" useGeneratedKeys="true" keyProperty="id">
+        insert into blog_db.user(name,email,password)
+        values (#{username},#{email},#{password})
+    </insert>
+
+    <parameterMap id="insertUser2ParamsMap" type="User">
+        <parameter property="username"/>
+        <parameter property="email"/>
+        <parameter property="password"/>
+    </parameterMap>
+
+
+    <!-- 在<insert id="insertUser2">使用了占位符?，
+        所以要设置一下输入参数映射。
+        <insert id="insertUser2">通过parameterMap属性引用了<parameterMap id="insertUser2ParamsMap">对应的参数映射配置。 -->
+    <insert id="insertUser2" parameterType="User" parameterMap="insertUser2ParamsMap" useGeneratedKeys="true" keyProperty="id">
+        insert into blog_db.user (name,email,password)
+        values (?,?,?)
+    </insert>
+
+    <!-- 修改用户密码 -->
+    <update id="updateUserPassword" parameterType="User">
+        update blog_db.user set password=#{password} where id=#{id}
+    </update>
+
+
+    <!-- 根据ID删除用户 -->
+    <delete id="delete" parameterType="User">
+        delete from blog_db.user where id=#{id}
+    </delete>
+
+    <!-- 删除ID大于某ID的所有用户 -->
+    <delete id="deleteByGreaterThanId" parameterType="Integer">
+        <![CDATA[delete from blog_db.user where id >#{id}]]>
+    </delete>
 </mapper>
 <!--<Mapper>的namespace是letian.mybatis.dao.UserMapper接口。
 唯一的一个<select>的id是findById，
