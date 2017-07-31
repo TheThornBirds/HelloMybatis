@@ -22,5 +22,6 @@
     </environments>
     <mappers>
         <mapper resource="letian/mybatis/mapper/UserMapper.xml"/>
+        <mapper resource="letian/mybatis/mapper/BlogMapper.xml"/>
     </mappers>
 </configuration>

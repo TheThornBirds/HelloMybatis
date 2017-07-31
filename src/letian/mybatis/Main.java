@@ -1,6 +1,8 @@
 package letian.mybatis;
 
+import letian.mybatis.bean.Blog;
 import letian.mybatis.bean.User;
+import letian.mybatis.dao.BlogMapper;
 import letian.mybatis.dao.UserMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -20,10 +22,10 @@ public class Main {
         SqlSessionFactory sessionFactory;
         sessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsReader("mybatis-config.xml"));
         SqlSession sqlSession = sessionFactory.openSession();
-        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-        User user = userMapper.findById(3);
+//        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+//        User user = userMapper.findById(3);
         //源码OK查询成功
-        System.out.println(user);
+//        System.out.println(user);
 
         //源码OK查询成功
 
@@ -75,6 +77,10 @@ public class Main {
 //        sqlSession.commit();
 //        sqlSession.close();
 
+        //查询一个博客的作者信息
+        BlogMapper blogMapper = sqlSession.getMapper(BlogMapper.class);
+        Blog blog = blogMapper.findById(5);
+        System.out.println(blog);
 
     }
 }

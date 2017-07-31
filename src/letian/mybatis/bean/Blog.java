@@ -8,6 +8,7 @@ public class Blog {
     private int ownerId;
     private String title;
     private String content;
+    private User user;
 
     public Blog() {
     }
@@ -19,14 +20,24 @@ public class Blog {
                 ", ownerId=" + ownerId +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
-                '}';
+                ", user=" + user +
+                '}'+'\n';
     }
 
-    public Blog(int id, int ownerId, String title, String content) {
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Blog(int id, int ownerId, String title, String content, User user) {
         this.id = id;
         this.ownerId = ownerId;
         this.title = title;
         this.content = content;
+        this.user = user;
     }
 
     public int getId() {
