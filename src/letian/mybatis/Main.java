@@ -5,6 +5,7 @@ import letian.mybatis.bean.User;
 import letian.mybatis.dao.BlogMapper;
 import letian.mybatis.dao.UserMapper;
 import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
@@ -78,9 +79,31 @@ public class Main {
 //        sqlSession.close();
 
         //查询一个博客的作者信息
+//        BlogMapper blogMapper = sqlSession.getMapper(BlogMapper.class);
+//        Blog blog = blogMapper.findById(5);
+//        System.out.println(blog);
+
+        //分页
+        List<Blog> blogs;
+
         BlogMapper blogMapper = sqlSession.getMapper(BlogMapper.class);
-        Blog blog = blogMapper.findById(5);
-        System.out.println(blog);
+        blogs = blogMapper.findAll();
+        System.out.println(blogs+"\n");
+
+        int offset = 0;
+        int limit = 2;
+        RowBounds rowBounds = new RowBounds(offset,limit);
+        blogs = sqlSession.selectList("letian.mybatis.dao.BlogMapper.findAll",new Object(), rowBounds);
+        System.out.println(blogs+"\n");
+
+        HashMap<String, Integer> offsetLimit = new HashMap<String, Integer>();
+        offsetLimit.put("offset", 0);
+        offsetLimit.put("limit", 3);
+        blogs = blogMapper.findAll2(offsetLimit);
+        System.out.println(blogs+"\n");
+
+        sqlSession.close();
+
 
     }
 }
