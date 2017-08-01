@@ -23,7 +23,7 @@ public class Main {
         SqlSessionFactory sessionFactory;
         sessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsReader("mybatis-config.xml"));
         SqlSession sqlSession = sessionFactory.openSession();
-//        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
 //        User user = userMapper.findById(3);
         //源码OK查询成功
 //        System.out.println(user);
@@ -43,18 +43,33 @@ public class Main {
 //        HashMap<String, String> userInfo = new HashMap<String, String>();
 //        userInfo.put("name", "letian");
 //        userInfo.put("password", "123");
-//        user = userMapper.findByNameAndPassword(userInfo);
+//        user = userMapper.findByNzameAndPassword(userInfo);
 //        System.out.println(user);
 
         //添加一个用户，源码OK，添加正确 (user1方法)
-//        User user1 = new User();
-//        user1.setUsername("xiaowy");
-//        user1.setEmail("xiaowei@111.com");
-//        user1.setPassword("456");
-//
-//        userMapper.insertUser1(user1);
-//        sqlSession.commit();
-//        System.out.println(user1);
+        User user1 = new User();
+        user1.setName("xiaohae1r");
+        user1.setEmail("xiaowei@111.com");
+        user1.setPassword("789");
+
+        User user2 = new User();
+        user2.setName("xiaohuner");
+        user2.setEmail("xiaowu@qq.com");
+        user2.setPassword("999");
+
+        try {
+            userMapper.insertUser1(user1);
+            userMapper.insertUser2(user2);
+            System.out.println("提交事务");
+            sqlSession.commit();
+            System.out.println("事务成功执行");
+            System.out.println(userMapper.findByPassword(user1.getPassword()));
+        }catch (Exception e){
+            System.out.println("事务执行失败，回滚");
+            sqlSession.close();
+        }finally{
+            sqlSession.close();
+        }
 
         //添加一个用户(user2方法)源码OK，查询正确
 //        User user2 = new User(0,"1234","mengmeng","haha@qq.com");
@@ -84,25 +99,37 @@ public class Main {
 //        System.out.println(blog);
 
         //分页
-        List<Blog> blogs;
+//        List<Blog> blogs;
+//
+//        BlogMapper blogMapper = sqlSession.getMapper(BlogMapper.class);
+//        blogs = blogMapper.findAll();
+//        System.out.println(blogs+"\n");
+//
+//        int offset = 0;
+//        int limit = 2;
+//        RowBounds rowBounds = new RowBounds(offset,limit);
+//        blogs = sqlSession.selectList("letian.mybatis.dao.BlogMapper.findAll",new Object(), rowBounds);
+//        System.out.println(blogs+"\n");
+//
+//        HashMap<String, Integer> offsetLimit = new HashMap<String, Integer>();
+//        offsetLimit.put("offset", 0);
+//        offsetLimit.put("limit", 3);
+//        blogs = blogMapper.findAll2(offsetLimit);
+//        System.out.println(blogs+"\n");
+//
+//        sqlSession.close();
 
-        BlogMapper blogMapper = sqlSession.getMapper(BlogMapper.class);
-        blogs = blogMapper.findAll();
-        System.out.println(blogs+"\n");
+        //动态sql
+//        HashMap<String, Integer> userId = new HashMap<String,Integer>();
+//        userId.put("id", 3);
+//        User user = userMapper.findById2(userId);
+//        System.out.println(user);
+//        sqlSession.close();
 
-        int offset = 0;
-        int limit = 2;
-        RowBounds rowBounds = new RowBounds(offset,limit);
-        blogs = sqlSession.selectList("letian.mybatis.dao.BlogMapper.findAll",new Object(), rowBounds);
-        System.out.println(blogs+"\n");
+//        User user = userMapper.findById3(-3);
+//        System.out.println(user);
 
-        HashMap<String, Integer> offsetLimit = new HashMap<String, Integer>();
-        offsetLimit.put("offset", 0);
-        offsetLimit.put("limit", 3);
-        blogs = blogMapper.findAll2(offsetLimit);
-        System.out.println(blogs+"\n");
 
-        sqlSession.close();
 
 
     }

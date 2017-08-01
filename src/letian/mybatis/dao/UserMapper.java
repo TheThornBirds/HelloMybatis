@@ -1,6 +1,7 @@
 package letian.mybatis.dao;
 
 import letian.mybatis.bean.User;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.HashMap;
 import java.util.List;
@@ -36,5 +37,10 @@ public interface UserMapper {
 
     //删除ID大于某ID的所有用户
     void deleteByGreaterThanId(int id);
+
+    //动态sql查询ID为1的用户
+    User findById2(HashMap<String, Integer> id);
+
+    User findById3(@Param("id") int id);
 
 }

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e89c7dcf-8a93-4a09-904f-76ca85b76a6e" name="Default" comment="">
+    <list default="true" id="e89c7dcf-8a93-4a09-904f-76ca85b76a6e" name="Default" comment="增加分页代码">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HelloMybatis/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/BlogMapper.java" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/BlogMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/BlogMapper.xml" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/BlogMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml" afterPath="$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../HelloMybatis/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,8 +82,8 @@
       <file leaf-file-name="Blog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/Blog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="14">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,11 +92,34 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
-              <folding>
-                <element signature="e#3331#3348#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="82">
+              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_db.user" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/56ccc416/21b0dbdd-0133-44fb-9437-535d5e3252dd/blog_db.user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,9 +127,30 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="-196">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="e#628#629#0" expanded="false" />
+                <element signature="e#653#654#0" expanded="false" />
+                <element signature="e#686#687#0" expanded="false" />
+                <element signature="e#714#715#0" expanded="false" />
+                <element signature="e#749#750#0" expanded="false" />
+                <element signature="e#780#781#0" expanded="false" />
+                <element signature="e#828#829#0" expanded="false" />
+                <element signature="e#868#869#0" expanded="false" />
+                <element signature="e#899#900#0" expanded="false" />
+                <element signature="e#926#927#0" expanded="false" />
+                <element signature="e#966#967#0" expanded="false" />
+                <element signature="e#998#999#0" expanded="false" />
+                <element signature="e#1030#1031#0" expanded="false" />
+                <element signature="e#1058#1059#0" expanded="false" />
+                <element signature="e#1100#1101#0" expanded="false" />
+                <element signature="e#1134#1135#0" expanded="false" />
+                <element signature="e#1170#1171#0" expanded="false" />
+                <element signature="e#1198#1199#0" expanded="false" />
+                <element signature="e#1244#1245#0" expanded="false" />
+                <element signature="e#1278#1279#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,10 +158,44 @@
       <file leaf-file-name="BlogMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/BlogMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="196">
+              <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding>
+                <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+                <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+                <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+                <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+                <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+                <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+                <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+                <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+                <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+                <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+                <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+                <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+                <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
               </folding>
             </state>
           </provider>
@@ -123,13 +204,13 @@
       <file leaf-file-name="BlogMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/BlogMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="322">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
-                <marker date="1501489844005" expanded="true" signature="1032:1343" ph="select blog.... blog" />
-                <marker date="1501489844005" expanded="true" signature="1442:1468" ph="select * fro... blog" />
-                <marker date="1501489844005" expanded="true" signature="1587:1619" ph="select * fro... blog" />
-                <marker date="1501489844005" expanded="true" signature="1587:1639" ph="select * fro... blog" />
+                <marker date="1501556284117" expanded="true" signature="1032:1343" ph="select blog.... blog" />
+                <marker date="1501556284117" expanded="true" signature="1442:1468" ph="select * fro... blog" />
+                <marker date="1501556284117" expanded="true" signature="1587:1619" ph="select * fro... blog" />
+                <marker date="1501556284117" expanded="true" signature="1587:1639" ph="select * fro... blog" />
               </folding>
             </state>
           </provider>
@@ -155,7 +236,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../HelloMybatis" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../HelloMybatis" value="master" />
+        <entry key="$PROJECT_DIR$/../HelloMybatis" value="day7" />
       </map>
     </option>
   </component>
@@ -170,13 +251,14 @@
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/log4j.properties" />
-        <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/Blog.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/21b0dbdd-0133-44fb-9437-535d5e3252dd/console.sql" />
-        <option value="$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/BlogMapper.java" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/BlogMapper.xml" />
+        <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/BlogMapper.java" />
+        <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/21b0dbdd-0133-44fb-9437-535d5e3252dd/console_1.sql" />
+        <option value="$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/21b0dbdd-0133-44fb-9437-535d5e3252dd/console.sql" />
         <option value="$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java" />
       </list>
     </option>
@@ -1392,7 +1474,8 @@
       <workItem from="1501213245837" duration="6628000" />
       <workItem from="1501228522615" duration="6346000" />
       <workItem from="1501465849705" duration="4771000" />
-      <workItem from="1501473243597" duration="10972000" />
+      <workItem from="1501473243597" duration="13468000" />
+      <workItem from="1501551611527" duration="7770000" />
     </task>
     <task id="LOCAL-00001" summary="修改两个BUG，现在源码OK，查询成功">
       <created>1501121884028</created>
@@ -1464,11 +1547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501482284446</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="增加分页代码">
+      <created>1501492287698</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1501492287698</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62534000" />
+    <option name="totallyTimeSpent" value="72800000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1491,21 +1581,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33732876" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34417808" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5291096" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4183056" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15506808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6399395" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.413767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1525,22 +1615,22 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15506808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.413767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34507042" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5291096" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189406" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6399395" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1575,33 +1665,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/BlogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/BlogMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
-            <marker date="1501489844005" expanded="true" signature="1032:1343" ph="select blog.... blog" />
-            <marker date="1501489844005" expanded="true" signature="1442:1468" ph="select * fro... blog" />
-            <marker date="1501489844005" expanded="true" signature="1587:1619" ph="select * fro... blog" />
-            <marker date="1501489844005" expanded="true" signature="1587:1639" ph="select * fro... blog" />
+            <marker date="1501556284117" expanded="true" signature="1032:1343" ph="select blog.... blog" />
+            <marker date="1501556284117" expanded="true" signature="1442:1468" ph="select * fro... blog" />
+            <marker date="1501556284117" expanded="true" signature="1587:1619" ph="select * fro... blog" />
+            <marker date="1501556284117" expanded="true" signature="1587:1639" ph="select * fro... blog" />
           </folding>
         </state>
       </provider>
@@ -1611,17 +1683,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1630,9 +1704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#3331#3348#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1640,7 +1712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1648,7 +1719,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1030#1031#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1100#1101#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1673,17 +1765,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1692,7 +1786,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1030#1031#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1100#1101#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1717,17 +1832,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1753,17 +1870,19 @@
         <state relative-caret-position="910">
           <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
           <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1772,9 +1891,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="65" column="65" lean-forward="true" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
-          <folding>
-            <element signature="e#3331#3348#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1782,7 +1899,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1030#1031#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1100#1101#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1799,17 +1937,19 @@
         <state relative-caret-position="700">
           <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1818,9 +1958,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#3331#3348#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1843,7 +1981,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1030#1031#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1100#1101#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1860,17 +2019,19 @@
         <state relative-caret-position="224">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1887,9 +2048,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#3331#3348#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1897,7 +2056,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1030#1031#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1100#1101#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1914,17 +2094,19 @@
         <state relative-caret-position="224">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1941,9 +2123,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#3331#3348#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1951,7 +2131,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1030#1031#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1100#1101#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1968,17 +2169,19 @@
         <state relative-caret-position="224">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
@@ -1995,9 +2198,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#3331#3348#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2012,39 +2213,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/56ccc416/21b0dbdd-0133-44fb-9437-535d5e3252dd/blog_db.blog">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1030#1031#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1100#1101#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1278#1279#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/21b0dbdd-0133-44fb-9437-535d5e3252dd/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <marker date="1501233373443" expanded="true" signature="1126:1192" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1226" ph="select user.... " />
-            <marker date="1501233373443" expanded="true" signature="1126:1429" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1126:1437" ph="select user.... user" />
-            <marker date="1501233373443" expanded="true" signature="1560:1613" ph="select * fro... user" />
-            <marker date="1501233373443" expanded="true" signature="1742:1834" ph="select id, n... user" />
-            <marker date="1501233373443" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
-            <marker date="1501233373443" expanded="true" signature="3224:3283" ph="update blog_... " />
-            <marker date="1501233373443" expanded="true" signature="3376:3415" ph="delete from " />
-            <marker date="1501233373443" expanded="true" signature="3540:3580" ph="delete from " />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="185" lean-forward="false" selection-start-line="0" selection-start-column="185" selection-end-line="0" selection-end-column="185" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/21b0dbdd-0133-44fb-9437-535d5e3252dd/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <caret line="0" column="217" lean-forward="false" selection-start-line="0" selection-start-column="217" selection-end-line="0" selection-end-column="217" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/56ccc416/21b0dbdd-0133-44fb-9437-535d5e3252dd/blog_db.blog">
+    <entry file="dbDummy://dbtable:/56ccc416/21b0dbdd-0133-44fb-9437-535d5e3252dd/blog_db.user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -2059,40 +2296,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        <state relative-caret-position="4">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <marker date="1501557771709" expanded="true" signature="1126:1192" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1226" ph="select user.... " />
+            <marker date="1501557771709" expanded="true" signature="1126:1429" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1126:1437" ph="select user.... user" />
+            <marker date="1501557771709" expanded="true" signature="1560:1613" ph="select * fro... user" />
+            <marker date="1501557771709" expanded="true" signature="1742:1834" ph="select id, n... user" />
+            <marker date="1501557771709" expanded="true" signature="2441:2532" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3053:3122" ph="insert into blog_db.user... " />
+            <marker date="1501557771709" expanded="true" signature="3224:3283" ph="update blog_... " />
+            <marker date="1501557771709" expanded="true" signature="3376:3415" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3540:3580" ph="delete from " />
+            <marker date="1501557771709" expanded="true" signature="3677:3707" ph="select * fro... blog_db." />
+            <marker date="1501557771709" expanded="true" signature="3677:3717" ph="select * fro... user" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/bean/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/dao/BlogMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="196">
+          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2101,24 +2344,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/mapper/BlogMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding>
-            <marker date="1501489844005" expanded="true" signature="1032:1343" ph="select blog.... blog" />
-            <marker date="1501489844005" expanded="true" signature="1442:1468" ph="select * fro... blog" />
-            <marker date="1501489844005" expanded="true" signature="1587:1619" ph="select * fro... blog" />
-            <marker date="1501489844005" expanded="true" signature="1587:1639" ph="select * fro... blog" />
+            <marker date="1501556284117" expanded="true" signature="1032:1343" ph="select blog.... blog" />
+            <marker date="1501556284117" expanded="true" signature="1442:1468" ph="select * fro... blog" />
+            <marker date="1501556284117" expanded="true" signature="1587:1619" ph="select * fro... blog" />
+            <marker date="1501556284117" expanded="true" signature="1587:1639" ph="select * fro... blog" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMybatis/src/letian/mybatis/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
-          <folding>
-            <element signature="e#3331#3348#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="82">
+          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

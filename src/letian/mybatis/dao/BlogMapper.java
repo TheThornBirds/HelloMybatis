@@ -1,6 +1,7 @@
 package letian.mybatis.dao;
 
 import letian.mybatis.bean.Blog;
+import letian.mybatis.bean.User;
 
 import java.util.HashMap;
 import java.util.List;

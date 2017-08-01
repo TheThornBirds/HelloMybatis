@@ -95,6 +95,32 @@
     <delete id="deleteByGreaterThanId" parameterType="Integer">
         <![CDATA[delete from blog_db.user where id >#{id}]]>
     </delete>
+
+    <select id="findById2" parameterType="hashMap" resultType="User">
+        select * from
+        blog_db.user where
+        <choose>
+            <when test="id &lt; 0">
+                id = 0-#{id}
+            </when>
+            <otherwise>
+                id = #{id}
+            </otherwise>
+        </choose>
+    </select>
+
+    <select id="findById3" parameterType="Integer" resultType="User">
+        select * from
+        blog_db.user where
+        <choose>
+            <when test="id &lt; 0">
+                id = 0-#{id}
+            </when>
+            <otherwise>
+                id = #{id}
+            </otherwise>
+        </choose>
+    </select>
 </mapper>
 <!--<Mapper>的namespace是letian.mybatis.dao.UserMapper接口。
 唯一的一个<select>的id是findById，
